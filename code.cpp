@@ -153,6 +153,9 @@ int main() {
 	int n;
 	cout << "Enter the number of observations here. " << "\n";
 	cin >> n;
+	cout << " \n";
+	cout << " \n";
+	cout << " \n";
 	double upper_r = (n * sumxy - (sumx * sumy));
 	double lower_r_1 = ((n * sumxsquare - pow(sumx, 2))) * (n * sumysquare - pow(sumy, 2));
 	double lower_r_2 = pow(lower_r_1, 0.5);
